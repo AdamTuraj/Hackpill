@@ -7709,7 +7709,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20uF"
+		(property "Value" "22uF"
 			(at 115.57 163.8299 0)
 			(effects
 				(font
@@ -8147,7 +8147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Hanbo_16P_TopMnt_Horizontal"
 			(at 203.2 60.96 0)
 			(effects
 				(font
@@ -8166,6 +8166,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 199.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6332269"
 			(at 199.39 60.96 0)
 			(effects
 				(font
@@ -8279,6 +8288,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -8765,7 +8783,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "51R"
 			(at 127 156.21 90)
 			(effects
 				(font
@@ -9543,7 +9561,7 @@
 				)
 			)
 		)
-		(property "Value" "50R"
+		(property "Value" "51R"
 			(at 145.034 128.524 0)
 			(effects
 				(font
