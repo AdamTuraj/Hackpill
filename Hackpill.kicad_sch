@@ -2042,6 +2042,151 @@
 				)
 			)
 		)
+		(symbol "Diode:SS14"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F0:STM32F042C6Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4246,12 +4391,6 @@
 		(uuid "1970df8a-04fd-48fa-b4d9-aa4ad5899a60")
 	)
 	(junction
-		(at 226.06 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ba0c379-040c-43f2-bf34-149867e5654a")
-	)
-	(junction
 		(at 251.46 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4487,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 228.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31216e67-0837-4651-85ab-cc9ee14ae43c")
-	)
-	(wire
-		(pts
 			(xy 171.45 138.43) (xy 179.07 138.43)
 		)
 		(stroke
@@ -4547,6 +4676,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 92.71) (xy 228.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ce5260-f5c9-41fa-83b0-fdadd4b4ce71")
+	)
+	(wire
+		(pts
 			(xy 82.55 36.83) (xy 71.12 36.83)
 		)
 		(stroke
@@ -4577,7 +4716,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 226.06 104.14)
+			(xy 218.44 104.14) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4614,16 +4753,6 @@
 			(type default)
 		)
 		(uuid "5627f6e9-5001-412d-a3a4-d68e252e64cf")
-	)
-	(wire
-		(pts
-			(xy 194.31 100.33) (xy 194.31 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6121097c-f814-4f57-a482-fa7a319bbbc2")
 	)
 	(wire
 		(pts
@@ -4737,16 +4866,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 91.44) (xy 226.06 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86833a2c-20b7-408d-9fe7-4a3967e58ebf")
-	)
-	(wire
-		(pts
 			(xy 93.98 29.21) (xy 82.55 29.21)
 		)
 		(stroke
@@ -4787,7 +4906,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 91.44) (xy 226.06 104.14)
+			(xy 228.6 92.71) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6694,7 +6813,7 @@
 			(uuid "3ba5cc29-e14d-4334-9852-8f0780023c3f")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR022")
 					(unit 1)
@@ -6773,7 +6892,7 @@
 			(uuid "07ef82f3-6613-4184-bd91-17a15ec4f828")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C3")
 					(unit 1)
@@ -6840,7 +6959,7 @@
 			(uuid "0f647500-6f15-4877-80c0-1d6d0fbcf9bf")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR013")
 					(unit 1)
@@ -7058,7 +7177,7 @@
 			(uuid "99b23e6e-a1fa-438b-9131-c5814bf8d257")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "U1")
 					(unit 1)
@@ -7126,7 +7245,7 @@
 			(uuid "34072ba1-11ac-4b0d-aaca-8a19e54cba1b")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR05")
 					(unit 1)
@@ -7196,7 +7315,7 @@
 			(uuid "c75d7560-1328-46fc-9316-4094760574a2")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C7")
 					(unit 1)
@@ -7276,7 +7395,7 @@
 			(uuid "efa10851-afa0-4cab-8e91-d17003768d72")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "U2")
 					(unit 1)
@@ -7353,7 +7472,7 @@
 			(uuid "72b3a9ed-e1b2-4976-b5ac-565b52f5c1a5")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "D2")
 					(unit 1)
@@ -7430,7 +7549,7 @@
 			(uuid "2712e7f3-e363-4ee6-940f-86ee3a0e95cf")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "D1")
 					(unit 1)
@@ -7497,7 +7616,7 @@
 			(uuid "b2cf9b66-6c33-401e-addc-841742981231")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR014")
 					(unit 1)
@@ -7564,7 +7683,7 @@
 			(uuid "22c8ac73-ea7b-4f1f-b469-cfd4f79965b5")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR03")
 					(unit 1)
@@ -7631,7 +7750,7 @@
 			(uuid "64419160-95ee-4b70-b2fa-84e839531397")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR024")
 					(unit 1)
@@ -7702,7 +7821,7 @@
 			(uuid "da8c92aa-c35d-421a-8426-5bf0465f5f71")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C8")
 					(unit 1)
@@ -7769,7 +7888,7 @@
 			(uuid "544acebf-e3bd-4a2d-8335-d07366c2757b")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR015")
 					(unit 1)
@@ -7839,7 +7958,7 @@
 			(uuid "1dbf8024-6adb-465e-9a5a-398e935d193c")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "R4")
 					(unit 1)
@@ -7918,7 +8037,7 @@
 			(uuid "a7eebfa9-ac45-43ca-ab40-14b3e8afd0ea")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C6")
 					(unit 1)
@@ -7997,7 +8116,7 @@
 			(uuid "61c831da-02c2-4927-b3a0-c43b562fc253")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C5")
 					(unit 1)
@@ -8119,7 +8238,7 @@
 			(uuid "a95e2391-d569-43b9-b14a-08bf07fb5bc8")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "J2")
 					(unit 1)
@@ -8196,7 +8315,7 @@
 			(uuid "d4891d39-08f0-4794-9225-b41aa9fcb8a8")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "SW1")
 					(unit 1)
@@ -8263,7 +8382,7 @@
 			(uuid "53bb6683-03b2-44a8-8f22-bce61255c1da")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR021")
 					(unit 1)
@@ -8331,7 +8450,7 @@
 			(uuid "208bcf8f-6953-46fe-ba34-f80caf17c7d7")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR020")
 					(unit 1)
@@ -8397,7 +8516,7 @@
 			(uuid "b04155be-5baf-4517-9dc6-a905b9f25d06")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR06")
 					(unit 1)
@@ -8431,6 +8550,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -8482,7 +8602,7 @@
 			(uuid "8ea24cf7-1816-429d-9a73-51c13cc2d3d1")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "J1")
 					(unit 1)
@@ -8575,7 +8695,7 @@
 			(uuid "20b21350-73cb-43fc-a5cb-be3e31ff5d09")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "U3")
 					(unit 1)
@@ -8642,7 +8762,7 @@
 			(uuid "829159fd-cec3-4118-9a4f-955755af443d")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR08")
 					(unit 1)
@@ -8709,7 +8829,7 @@
 			(uuid "0391a71b-94dd-4d59-b387-d3c6bb5aa880")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR02")
 					(unit 1)
@@ -8788,7 +8908,7 @@
 			(uuid "78c541cb-2787-4b68-b7ad-c9cbaf447e64")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C2")
 					(unit 1)
@@ -8855,7 +8975,7 @@
 			(uuid "630c3408-378b-45a6-a0b0-06f45ef4378d")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR09")
 					(unit 1)
@@ -8923,7 +9043,7 @@
 			(uuid "38de7c75-cd5a-4695-9a5a-62d937fc91e7")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR018")
 					(unit 1)
@@ -8989,7 +9109,7 @@
 			(uuid "f9b674c7-3beb-4f44-bf4a-59ac687d742d")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR011")
 					(unit 1)
@@ -9068,7 +9188,7 @@
 			(uuid "54686d9c-6792-452a-82b5-7ad75da17a00")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C4")
 					(unit 1)
@@ -9147,7 +9267,7 @@
 			(uuid "fa7f3a07-6059-4452-aeac-38fee29363bc")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "R1")
 					(unit 1)
@@ -9287,7 +9407,7 @@
 			(uuid "dc3fbc13-1e50-4f37-b201-f20c9815161e")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "J4")
 					(unit 1)
@@ -9354,7 +9474,7 @@
 			(uuid "765c23da-dbff-4900-9670-ba5a696f68ef")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR01")
 					(unit 1)
@@ -9421,7 +9541,7 @@
 			(uuid "2b095645-004a-4dd6-b5af-81e74365e394")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "R5")
 					(unit 1)
@@ -9488,9 +9608,78 @@
 			(uuid "a08ae082-0b31-480e-8fa1-be0890f27b97")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 194.31 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5a4c2e9-31ea-4de1-8120-eb743c90ceb0")
+		(property "Reference" "D4"
+			(at 196.088 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS14"
+			(at 196.088 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 189.865 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 194.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 194.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a542af0-b1a9-4de5-b50c-f1f30364c86e")
+		)
+		(pin "2"
+			(uuid "acbc6060-f57a-4c8f-976d-dde53c2673f8")
+		)
+		(instances
+			(project "Hackpill"
+				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9558,7 +9747,7 @@
 			(uuid "aff2eba6-9d3a-4304-981e-f20685eac0d6")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "R3")
 					(unit 1)
@@ -9626,7 +9815,7 @@
 			(uuid "78fc620a-aa13-4b87-a68d-3d0a84b4b2cc")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR019")
 					(unit 1)
@@ -9693,7 +9882,7 @@
 			(uuid "e745a624-8aaa-48b5-b3a0-289a7bf93a60")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR04")
 					(unit 1)
@@ -9832,7 +10021,7 @@
 			(uuid "72cd5cb0-9394-4484-91c0-27d769c97224")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "J3")
 					(unit 1)
@@ -9899,7 +10088,7 @@
 			(uuid "567a578b-d471-4124-8acd-11725e52c138")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "R2")
 					(unit 1)
@@ -9975,7 +10164,7 @@
 			(uuid "52df5cb3-6fa3-4201-9765-f22eb33b0dd6")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "C1")
 					(unit 1)
@@ -10042,7 +10231,7 @@
 			(uuid "d0693749-1b89-4c0d-89ec-5efebe4e1d31")
 		)
 		(instances
-			(project "Workshop_PCB"
+			(project "Hackpill"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR010")
 					(unit 1)
