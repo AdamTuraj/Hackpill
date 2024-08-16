@@ -4294,6 +4294,12 @@
 		(uuid "64f72413-beed-4a45-b59f-05b5bd7251f6")
 	)
 	(junction
+		(at 218.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e1e825-7f6d-4b15-95ac-f8fc7c138dc2")
+	)
+	(junction
 		(at 194.31 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5286,7 +5292,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP_D1"
+	(global_label "USB_DP"
 		(shape bidirectional)
 		(at 205.74 118.11 0)
 		(fields_autoplaced yes)
@@ -5298,7 +5304,7 @@
 		)
 		(uuid "2c557ef7-be25-4284-9488-b9e7842d7a1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6012 118.11 0)
+			(at 217.1541 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5534,7 @@
 			)
 		)
 	)
-	(global_label "D21"
+	(global_label "D19"
 		(shape bidirectional)
 		(at 91.44 60.96 180)
 		(fields_autoplaced yes)
@@ -5638,7 +5644,7 @@
 			)
 		)
 	)
-	(global_label "D24"
+	(global_label "D22"
 		(shape bidirectional)
 		(at 91.44 50.8 180)
 		(fields_autoplaced yes)
@@ -5880,7 +5886,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM_D0"
+	(global_label "USB_DM"
 		(shape bidirectional)
 		(at 205.74 115.57 0)
 		(fields_autoplaced yes)
@@ -5892,7 +5898,7 @@
 		)
 		(uuid "7b4aa7f0-b502-49b9-bfa4-02b029b37973")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.7826 115.57 0)
+			(at 217.3355 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6062,7 @@
 			)
 		)
 	)
-	(global_label "CAN_RX_PWM_D18"
+	(global_label "CAN_RX_PWM_D16"
 		(shape bidirectional)
 		(at 91.44 88.9 180)
 		(fields_autoplaced yes)
@@ -6100,7 +6106,7 @@
 			)
 		)
 	)
-	(global_label "D23"
+	(global_label "D21"
 		(shape bidirectional)
 		(at 91.44 48.26 180)
 		(fields_autoplaced yes)
@@ -6122,7 +6128,7 @@
 			)
 		)
 	)
-	(global_label "D22"
+	(global_label "D20"
 		(shape bidirectional)
 		(at 91.44 63.5 180)
 		(fields_autoplaced yes)
@@ -6188,7 +6194,7 @@
 			)
 		)
 	)
-	(global_label "D24"
+	(global_label "D22"
 		(shape bidirectional)
 		(at 128.27 143.51 90)
 		(fields_autoplaced yes)
@@ -6474,7 +6480,7 @@
 			)
 		)
 	)
-	(global_label "D20"
+	(global_label "D18"
 		(shape bidirectional)
 		(at 91.44 58.42 180)
 		(fields_autoplaced yes)
@@ -6606,7 +6612,7 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_PWM_D19"
+	(global_label "CAN_TX_PWM_D17"
 		(shape bidirectional)
 		(at 91.44 91.44 180)
 		(fields_autoplaced yes)
@@ -8920,6 +8926,72 @@
 			(project "Workshop_PCB"
 				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c846f11e-895b-4ea8-8354-6cc24c30af9d")
+		(property "Reference" "#PWR011"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b674c7-3beb-4f44-bf4a-59ac687d742d")
+		)
+		(instances
+			(project "Workshop_PCB"
+				(path "/c0781056-ba6f-4324-98d3-3fa2d5c57644"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
