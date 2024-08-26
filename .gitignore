@@ -19,6 +19,8 @@ fp-info-cache
 \#auto_saved_files#
 .DS_Store
 *.lck
+production/backups
+fabrication-toolkit-options.json
 
 # Netlist files (exported from Eeschema)
 *.net

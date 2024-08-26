@@ -8150,7 +8150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Hanbo_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Shouhan_16P_TopMnt_Horizontal"
 			(at 182.88 115.57 0)
 			(effects
 				(font
@@ -8580,7 +8580,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C18905864"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -9331,7 +9331,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C18078140"
 			(at 69.85 151.13 0)
 			(effects
 				(font
